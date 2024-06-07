@@ -1,2 +1,8 @@
-# download_telegram_bot
-Creates a telegram bot to ideally download media files into the local Jellyfin media server
+# Telegram Jellyfin Bot
+
+A Telegram bot to download videos to a Jellyfin server.
+
+## Installation
+
+```sh
+pip install telegram_jellyfin_bot
