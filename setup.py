@@ -18,7 +18,7 @@ setup(
     description='A Telegram bot to download videos to a Jellyfin server.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/telegram_jellyfin_bot',
+    url='https://github.com/oritor91/telegram_jellyfin_bot',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
