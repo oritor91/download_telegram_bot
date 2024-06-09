@@ -1,18 +1,18 @@
 import os
 import re
 from pyrogram import Client
-from telegram import Update, Bot
+from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
-from pydantic import BaseModel, ValidationError, field_validator
+from pydantic import BaseModel, ValidationError
 
 # Replace with your own API_ID and API_HASH
-API_ID = '23443710'
-API_HASH = 'ca4d8a5a3f079a41cef2481a1bee1a93'
-TELEGRAM_API_TOKEN = "7166604192:AAG-n9nQhCZSyfiYycM0xgSHb9n0cIZqRV0"
+API_ID = os.environ["API_ID"]
+API_HASH = os.environ["API_HASH"]
+TELEGRAM_API_TOKEN = os.environ["TELEGRAM_API_TOKEN"]
 
 # States for conversation
 # Define paths
-MEDIA_BASE_PATH = "./shows/"
+MEDIA_BASE_PATH = os.environ["MEDIA_BASE_PATH"]
 
 # States for conversation
 URL, SHOW_CHOICE, NEW_SHOW_NAME = range(3)
