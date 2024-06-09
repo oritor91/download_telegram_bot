@@ -7,6 +7,9 @@ setup(
     install_requires=[
         'python-telegram-bot>=13.0',
         'yt-dlp',
+        "pyrogram",
+        "tgcrypto",
+        "pydantic"l
     ],
     entry_points={
         'console_scripts': [
