@@ -9,7 +9,7 @@ setup(
         'yt-dlp',
         "pyrogram",
         "tgcrypto",
-        "pydantic"l
+        "pydantic",
     ],
     entry_points={
         'console_scripts': [
